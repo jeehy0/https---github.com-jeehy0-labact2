@@ -1,38 +1,204 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+body {
+  background-color: #fffef1;
+}
+
+.navbar {
+  width: auto;
+  height: 75px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 12px 72.4px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 8rem;
+}
+
+.logo a {
+  background-color: #fffef1;
+  color: rgb(255, 127, 17);
+  text-decoration: none;
+  text-decoration-thickness: auto;
+  font-family: Paytone One, sans-serif;
+  font-size: 36px;
+}
+
+.nav-menu a {
+  background-color: #fffef1;
+  font-family: Rubik, sans-serif;
+  color: grey;
+  text-decoration: none;
+  font-size: 20px;
+  outline-width: 1px;
+  gap: 5rem;
+  font-weight: 700;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bigger-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.big-div {
+  max-width: 1000px;
+}
+
+.about {
+  align-items: center;
+  max-width: 700px;
   text-align: center;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about h1 {
+  font-size: 72px;
+  color: rgb(255, 127, 17);
+  font-weight: 700;
+  font-family: Paytone One, sans-serif;
+  margin: auto;
+  line-height: 72px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about p {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.developers {
+  align-items: center;
+  justify-content: center;
+  margin-block-end: 30px;
+  padding-top: 30px;
+  width: 800px;
+  margin: auto;
+  height: 97px;
+}
+
+.developers p {
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+  color: grey;
+}
+
+.big-div-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+}
+
+.components {
+  column-gap: 48px;
+  display: flex;
+  flex-direction: row;
+  height: 233px;
+  margin-top: 30px;
+  row-gap: 48px;
+  width: 585px;
+}
+
+.components-two {
+  background-origin: padding-box;
+  background-size: auto;
+  border-radius: 25px;
+  font-family: Rubik, sans-serif;
+  height: 173px;
+  padding: 40px 20px 20px 20px;
+  text-align: center;
+  justify-content: center;
+  width: 163px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
 }
 
-.App-link {
-  color: #61dafb;
+.components-two img {
+  aspect-ratio: auto 85 / 85;
+  height: 85px;
+  width: 85px;
+  margin-left: 5px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.components-pic {
+  aspect-ratio: auto 85 / 85;
+  font-family: Rubik, sans-serif;
+}
+
+.component-label {
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(255, 127, 17);
+  font-style: bold;
+  height: 80px;
+}
+
+.footer {
+  width: auto;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo img {
+  aspect-ratio: auto 150 / 50;
+  height: 60px;
+  width: 172.578px;
+}
+
+.footer-menu {
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.fb {
+  width: 25px;
+  height: 25px;
+  background: url("fb.svg") no-repeat center center;
+  background-size: contain;
+}
+
+.ig {
+  width: 25px;
+  height: 25px;
+  background: url("ig.svg") no-repeat center center;
+  background-size: contain;
+}
+
+.twt {
+  width: 25px;
+  height: 25px;
+  background: url("twt.svg") no-repeat center center;
+  background-size: contain;
+}
+
+.tiktok {
+  width: 25px;
+  height: 25px;
+  background: url("tiktok.svg") no-repeat center center;
+  background-size: contain;
 }
